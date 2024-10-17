@@ -1,55 +1,74 @@
 body{
-   
+   position: relative;
 }
-.box{
-    margin-top: 5%;
-    margin-left: 45%;
-    background-color: rgb(34, 34, 34);
-    width: 70px;
-    height: 20px;
-    display: inline-block;
-}
-.box1{
-    margin-top: 8%;
-    margin-left: 55%;
-    background-color: rgb(34, 34, 34);
-    width: 70px;
-    height: 20px;
-    display: inline-block;
-}
-.box2{
-    margin-top: 11%;
-    margin-left: 45%;
-    background-color: rgb(34, 34, 34);
-    width: 70px;
-    height: 20px;
-    display: inline-block;
-}
-.box3{
-    margin-top: 12%;
-    margin-left: 55%;
-    background-color: rgb(34, 34, 34);
-    width: 70px;
-    height: 20px;
-    display: inline-block;
-}
-.img{
-    width: 100px;
-    margin-left: 44%;
+.all{
     animation-name: load;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    display: inline-block;
+    margin-left: 48%;
+    width: 100px;
+    height: 578px;
+}
+.box{
+    border: solid black;
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    transform: rotate(90deg);
+    margin-bottom: 100px;
+}
+.box1{
+    border: solid black;
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    transform: rotate(90deg);
+    margin-bottom: 100px;
+}
+.box2{
+    border: solid black;
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    transform: rotate(90deg);
+    margin-bottom: 100px;
+}
+.box3{
+    border: solid black;
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    transform: rotate(90deg);
+    margin-bottom: 100px;
+}
+.box4{
+    border: solid black;
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    transform: rotate(90deg);
+    margin-bottom: 100px;
+}
+
+
+.img{
+    width: 100px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 48%;
+    top: 30%;
+    
+
+
+
 }
 @keyframes load{
-    0%{
-        transform: translate(10px, -700px );
+    from{
+        transform: translate(0px, 0px );
         
     }
-}
-@keyframes box{
-    0%{
-        transform: translate();
+    to{
+        transform: translate(0px, 30px ); 
     }
 }
